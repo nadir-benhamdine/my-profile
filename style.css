@@ -1,0 +1,93 @@
+body {
+	background-color: #ccd5ae;
+	color: #81b29a;
+	font-family: 'Source Serif Pro', serif;
+
+
+}
+
+
+h1{
+	color: #3d405b;
+font-family: 'Playfair Display SC', serif;
+font-weight: 700;
+letter-spacing: 10px;
+font-size: 40px;
+}
+
+h2{
+	color: #006d77;
+font-family: 'Playfair Display SC', serif;
+font-weight: 700;
+letter-spacing: 3px;
+font-size: 20px;
+}
+
+
+a {
+	text-decoration: none;
+	color : #006d77;
+}
+
+a:hover {
+	color :#f2cc8f;
+}
+
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+.card-white {
+	background-color: #f4f1de;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-color {
+	background-color: #ccd5ae;
+	padding: 8px 15px;
+	border-radius: 4px;
+}
+.btn-color:hover {
+	background-color: #3d405b;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 40px;
+}
+
+#introduction p {
+	margin-bottom: 30px;
+}
